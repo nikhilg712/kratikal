@@ -27,13 +27,17 @@
           <li><a href="#">Pricing</a></li>
         </ul>
         <div class="search-contact">
-          <a href="#" class="search-icon">
+          <a href="#" id="search-icon">
             <img src="search.svg" alt="Search" />
           </a>
           <a href="#" class="contact-btn">Contact Us</a>
         </div>
       </nav>
     </header>
+    <div class="search-bar" id="search-bar">
+      <input type="text" placeholder="Search..." />
+      <button type="button">Search</button>
+  </div>
     <div class="event-container">
       <div class="event-header">
         <div>
@@ -63,7 +67,6 @@
           </button>
         </div>
 
-        
         <img src="cover.gif" alt="" />
       </div>
       <div class="event-details">
@@ -87,10 +90,7 @@
         </div>
         <div class="detail-card-wide">
           <div class="detail-icon-wide">
-            <img
-              src="building.png"
-              alt="About Webinar Icon"
-            />
+            <img src="building.png" alt="About Webinar Icon" />
             <!-- Replace with your icon path -->
           </div>
           <div class="detail-content-wide">
@@ -192,77 +192,39 @@
       <div class="form-container">
         <h2>Register Now!</h2>
         <form action="#" method="post">
-          <div class="form-group">
-            <input
-              type="text"
-              id="full-name"
-              name="full-name"
-              placeholder=" "
-              required
-            />
-            <label for="full-name">Full Name</label>
-          </div>
-          <div class="form-group">
-            <input
-              type="email"
-              id="work-email"
-              name="work-email"
-              placeholder=" "
-              required
-            />
-            <label for="work-email">Work Email</label>
-          </div>
-          <div class="form-group">
-            <input
-              type="tel"
-              id="phone-number"
-              name="phone-number"
-              placeholder=" "
-              required
-            />
-            <label for="phone-number">Phone Number</label>
-          </div>
-          <div class="form-group">
-            <input
-              type="text"
-              id="company-name"
-              name="company-name"
-              placeholder=" "
-              required
-            />
-            <label for="company-name">Company Name</label>
-          </div>
-          <div class="form-group">
-            <input
-              type="text"
-              id="designation"
-              name="designation"
-              placeholder=" "
-              required
-            />
-            <label for="designation">Designation</label>
-          </div>
-          <div class="form-group">
-            <input
-              type="number"
-              id="number-of-employees"
-              name="number-of-employees"
-              placeholder=" "
-              required
-            />
-            <label for="number-of-employees">Number of Employees</label>
-          </div>
-          <div class="form-group">
-            <input type="checkbox" id="subscribe" name="subscribe" />
-            <label for="subscribe"
-              >Subscribe to weekly Newsletter to stay updated</label
-            >
-          </div>
-          <div class="form-group">
-            <button type="submit">Submit</button>
-          </div>
+            <div class="form-group">
+                <input type="text" id="full-name" name="full-name" placeholder=" " required />
+                <label for="full-name">Full Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="work-email" name="work-email" placeholder=" " required />
+                <label for="work-email">Work Email</label>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone-number" name="phone-number" placeholder=" " required />
+                <label for="phone-number">Phone Number</label>
+            </div>
+            <div class="form-group">
+                <input type="text" id="company-name" name="company-name" placeholder=" " required />
+                <label for="company-name">Company Name</label>
+            </div>
+            <div class="form-group">
+                <input type="text" id="designation" name="designation" placeholder=" " required />
+                <label for="designation">Designation</label>
+            </div>
+            <div class="form-group">
+                <input type="number" id="number-of-employees" name="number-of-employees" placeholder=" " required />
+                <label for="number-of-employees">Number of Employees</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="subscribe" name="subscribe" />
+                <label for="subscribe">Subscribe to weekly Newsletter to stay updated</label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
         </form>
-      </div>
+    </div>
     </div>
     <div class="contact-us">
       <h4>Contact Us for All Your Cybersecurity Needs</h4>
@@ -310,15 +272,19 @@
         </div>
         <div class="footer-column">
           <div class="location">
-            <h4>Locations</h4>
-            <p>
-              UNITED STATES<br />
-              400 W Peachtree St NW Atlanta, GA, 30308
-            </p>
-            <h4>Contact Detail</h4>
-            <p>FOR SALES</p>
-            <p><a href="mailto:sales@threatcop.com">sales@threatcop.com</a></p>
-            <p><img src="usa.png" alt="USA Flag" /> (+1) 323 287 9435</p>
+            <div>
+              <h4>Locations</h4>
+              <p>
+                UNITED STATES<br />
+                400 W Peachtree St NW Atlanta, GA, 30308
+              </p>
+              <h4>Contact Detail</h4>
+              <p>FOR SALES</p>
+              <p>
+                <a href="mailto:sales@threatcop.com">sales@threatcop.com</a>
+              </p>
+              <p><img src="usa.png" alt="USA Flag" /> (+1) 323 287 9435</p>
+            </div>
           </div>
 
           <div class="footer-social">
